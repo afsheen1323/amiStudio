@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tasveer Sculpt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <style>
+        section{
+            height: 100vh;
+            width: 75vw;
+            margin-left: 25vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        .article1{
+            height: 100vh;
+            width: 25vw;
+            padding: 45px;
+            background-color: rgb(240, 217, 45);
+            color: black;
+        }
+        .article1 h1{
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        .article1 .first-p{
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 15px;
+            letter-spacing: 0.8px;
+        }
+        .article1 .inner-box{
+            margin-top: 30px;
+        }
+        .article1 .inner-box i{
+            font-size: larger;
+            background-color: transparent;
+            border: 0.3px solid rgba(0, 0, 0, 0.197);
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        .article1 .inner-box b{
+            margin-left: 10px;
+        }
+        .article2{
+            height: 100vh;
+            width: 50vw;
+            padding: 50px;
+            background-color: rgb(24, 24, 24);
+            color: white;
+        }
+        .article2 h1{
+            font-size: 2rem;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+        .article2 input{
+            height: 60px;
+            width: 260px;
+            margin-left: 20px;
+            margin-top: 30px;
+            border: none;
+            border-bottom: 0.3px solid grey;
+            background-color:transparent ;
+            color: white;
+        }
+        .article2 input:focus,.article2 textarea:focus{  
+            outline: none;
+        }
+        .article2 input:nth-child(4){
+            width: 540px;
+            margin-top: 60px;
+        }
+        .article2 input::placeholder,.article2 textarea::placeholder{
+            color: white;
+            font-size: 16px;
+        }
+        .article2 textarea{
+            height: 100px;
+            width: 550px;
+            margin-left: 20px;
+            margin-top: 50px;
+            background: transparent;
+            border: none;
+            border-bottom: 0.3px solid grey;
+            color: white;
+        }
+        .article2 button{
+            display:block;
+            margin-left: 20px;
+            height: 50px;
+            width: 150px;
+            margin-top: 30px;
+            background-color: goldenrod;
+            color: black;
+            border-radius: 900px;
+            border: 1px solid goldenrod;
+            transition: all ease 0.5s;
+            font-size: large;
+        }
+        .article2 button:hover{
+            color: goldenrod;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+     <aside>
+        <h1 class="inside-img">Tasveer Sculpt</h1>
+        <nav>
+            <li id="clicked"><a href="index.html">HOME</a></li>
+            <li id="clicked"><a href="gallery.html">GALLERY</a></li>
+            <li id="clicked"><a href="about.html">ABOUT</a></li>
+            <li id="clicked"><a href="pricing.html">PRICING</a></li>
+            <li id="clicked"><a href="contact.html">CONTACT</a></li>
+        </nav>
+
+        <h3>SUBSCRIBE FOR NEWSLETTER</h3>
+        <input type="email" placeholder="Enter Email Address" required>
+        <p>Copyright ©2024 All rights reserved | This template is made by <span style="color: whitesmoke;">Aamir Khilji</span></p>
+    </aside>
+
+    <section>
+         <article class="article1">
+            <h1>Let's Get In Touch</h1>
+            <p class="first-p">We're open for any suggestion or just to have a chat</p>
+
+            <div class="inner-box">
+                <i class="fa-solid fa-location-pin"></i>
+                <b>Address:</b>
+                <span>New Chandpole road , infront of bijli ghar, Jodhpur Rajasthan</span>
+            </div>
+            <div class="inner-box">
+                <i class="fa-solid fa-mobile-phone"></i>
+                <b>Phone:</b>
+                <span>+91 82905 97426</span>
+            </div>
+            <div class="inner-box">
+                <i class="fa-solid fa-telegram-plane"></i>
+                <b>Email:</b>
+                <span>faizankhilji786@gmail.com</span>
+            </div>
+            <div class="inner-box">
+                <i class="fa-solid fa-globe"></i>
+                <b>Website:</b>
+                <span>tasveersculpt.com</span>
+            </div>
+
+         </article>
+         <article class="article2">
+            <h1>GET IN TOUCH</h1>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message"></textarea>
+            <button>Send Message</button>
+         </article>
+    </section>
+</body>
+</html>

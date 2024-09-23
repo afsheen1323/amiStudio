@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    font-family: "Titillium Web", sans-serif;
+    transition: all ease-in-out 0.5s;
+}
+aside::after{
+    content: url(assets/aside.png);
+    position: absolute;
+    top: -0.0000000001%;
+    left: 24.3vw;   
+}
+aside{
+    height: 100vh;
+    width: 25vw;
+    background-color: black;
+    color: white;
+    padding:  20px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    position: fixed;
+    display: inline;
+}
+aside h1{
+    background: url(assets/bg_1.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3.3rem;
+}
+aside nav{
+    height: 20vw;
+    width: 30px;
+    margin-top: 50px;
+}
+aside nav li{
+    list-style: none;
+}
+aside nav li a{
+    text-decoration:none;
+    color: white;
+    transition: all ease 0.4s;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+aside nav li a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+aside nav li a:active{
+    text-decoration: underline;
+    color: rgb(50, 188, 94);
+}
+aside h3{
+    color: #666666;
+    margin-top: 20%;
+}
+aside input{
+    height: 50px;
+    width: 320px;
+    background-color: transparent;
+    border: 1px solid #666666;
+    /* font-weight: 700; */
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+}
+aside input::placeholder{
+    padding-left: 10px;
+    color: #666666;
+    font-weight: 700;
+}
+aside p{
+    color:#666666;
+    font-size: 1rem;
+    margin-top: 10%;
+}
+
+/* -- figure--  */
+figure{
+    background-color: black;
+    height:100vh;
+    width: 75vw;
+    margin-left: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+figure .image-side{
+    background: url(assets/work-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+}
+figure .cap-side{
+    height: 100vh;
+    width: 50%;
+    background-color:rgba(30, 30, 30, 0.522);
+    color: white;
+    padding: 65px;
+    padding-top: 240px;
+    position: relative;
+}
+.cap-side p{
+    color: #848484;
+    position: relative;
+    letter-spacing: 1px;
+}
+.cap-side p:nth-child(3){
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.cap-side p:nth-child(3)::before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 2px;
+    background-color: goldenrod;
+    top: 6px;
+    left: -20px;
+}
+ .cap-side h2{
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+ }
+ .cap-side button{
+    height: 30px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid goldenrod;
+    margin-top: 30px;
+    color: goldenrod;
+    font-weight: bolder;
+    padding: 0;
+    letter-spacing: 2px;
+ }
+
+ figure .image-side2{
+    background: url(assets/work-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side3{
+    background: url(assets/work-3.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side4{
+    background: url(assets/work-4.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side5{
+    background: url(assets/work-5.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side6{
+    background: url(assets/work-6.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side7{
+    background: url(assets/work-7.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side8{
+    background: url(assets/work-8.jpg) no-repeat center center;
+    background-size: cover;
+}
+figure .image-side9{
+    background: url(assets/work-9.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+footer{
+    height: 80px;
+    width: 75%;
+    margin-left: 25%;
+    background-color: goldenrod;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+footer p{
+    letter-spacing: 3px;
+    line-height: 80px;
+    border: none;
+    background-color: transparent;
+    font-size:large;
+    font-weight: 600;
+}
+footer p i{
+    margin-left: 1%;
+}
+
+/* 
+
+@media only screen and (max-width: 412px) {
+    aside{
+        display: none;
+    }
+    aside::after{
+        display: none;
+    }
+    figure{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    figure .image-side1{
+        width: 100%;
+    }
+    figure .cap-side{
+        width: 100%;
+        margin-left: 0;
+    }
+    footer{
+        width: 100%;
+        margin-left: 0;
+    }
+} */

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .normal-term{
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25%;
+    }
+    .normal-term article{
+        height: 100vh;
+        width: 48%;
+        background: url(assets/about.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .normal-term main{
+        height: 100vh;
+        width: 52%;
+        background-color: rgb(24, 24, 24);
+        padding: 60px;
+        padding-top: 100px;
+        box-sizing: border-box;
+    }
+    main h2{
+        font-size: 3rem;
+        line-height: 50px;
+        color: white;
+    }
+    main h2 span{
+        color: goldenrod;
+    }
+    main .p1{
+        color: grey;
+        font-weight: 500;
+        font-size: large;
+        margin-top: 30px;
+    }
+    main .inner-box{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 50px;
+    }
+    main .inner-box .column{
+        height: 150px;
+        width: 30%;
+        text-align: center;
+        margin-left: 35px;
+    }
+    main .inner-box .column img{
+        height: 90px;
+        width: 90px;
+        border-radius: 100px;
+    }
+    main .inner-box .column h3{
+        color: white;
+    }
+    main .inner-box .column .p-2{
+        color: gray;
+    }
+
+</style>
+<body>
+    <aside>
+        <h1 class="inside-img">Tasveer Sculpt</h1>
+        <nav>
+            <li id="clicked"><a href="index.html">HOME</a></li>
+            <li id="clicked"><a href="gallery.html">GALLERY</a></li>
+            <li id="clicked"><a href="about.html">ABOUT</a></li>
+            <li id="clicked"><a href="pricing.html">PRICING</a></li>
+            <li id="clicked"><a href="contact.html">CONTACT</a></li>
+        </nav>
+
+        <h3>SUBSCRIBE FOR NEWSLETTER</h3>
+        <input type="email" placeholder="Enter Email Address" required>
+        <p>Copyright ©2024 All rights reserved | This template is made by <span style="color: whitesmoke;">Aamir Khilji</span></p>
+    </aside>
+
+    <section class="normal-term">
+        <article>
+
+        </article>
+        <main>
+            <h2>
+                Hello! I'm <span>Faizan Khilji</span> the CEO of a tasveer Sculpt Photography
+            </h2>
+            <p class="p1">
+                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <div class="inner-box">
+                <div class="column">
+                    <img src="assets/team-1.jpg" alt="">
+                    <h3>Tausif Khilji</h3>
+                    <p class="p-2">Photographer</p>
+                </div>
+                <div class="column">
+                    <img src="assets/team-2.jpg" alt="">
+                    <h3>Ehteshamuddin</h3>
+                    <p class="p-2">Photographer</p>
+                </div>
+                <div class="column">
+                    <img src="assets/team-3.jpg" alt="">
+                    <h3>Aamir Khilji</h3>
+                    <p class="p-2">Photographer</p>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+</html>
